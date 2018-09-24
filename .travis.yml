@@ -3,4 +3,4 @@ php:
 - '7.1'
 
 before_install: composer install
-script: phpunit --bootstrap vendor/autoload.php tests
+script: vendor/bin/phpunit --bootstrap vendor/autoload.php tests
