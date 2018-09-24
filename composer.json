@@ -1,0 +1,18 @@
+{
+    "name": "loickvirot/istrue",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Loick",
+            "email": "lvirot@pm.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"LoickVirot\\": "src/"}
+    },
+    "description": "",
+    "require-dev": {
+        "phpunit/phpunit": "5"
+    }
+}
